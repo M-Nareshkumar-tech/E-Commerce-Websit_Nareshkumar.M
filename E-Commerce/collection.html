@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nostra</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Epunda+Slab:ital,wght@0,300..900;1,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <h1>Nostra</h1>
+
+        <div class="navbar-links">
+            <p class="navbar-link"><a href="index.html">Home</a></p>
+            <p class="navbar-link"><a href="collection.html">Collections</a></p>
+            <p class="navbar-link"><a href="contact.html">Contact</a></p>
+
+        </div>
+
+        <div class="navbar-menu-toggle" onclick="showNavbar()"">
+            <i class=" fa-solid fa-bars"></i>
+        </div>
+    </nav>
+
+
+    <div class="side-navbar">
+        <p style="text-align: right;" onclick="closeNavbar()">
+            <i class="fa-solid fa-xmark"></i>
+        </p>
+
+        <div class="side-navbar-links">
+            <p class="side-navbar-link"><a href="index.html">Home</a></p>
+            <p class="side-navbar-link"><a href="collection.html">Collections</a></p>
+            <p class="side-navbar-link"><a href="contact.html">Contact</a></p>
+        </div>
+    </div>
+
+
+    <!-- Product -->
+
+    <div class="product-section">
+        <form class="product-search">
+            <input type="text" id="search" placeholder="Search">
+            <i class="fa-solid fa-magnifying-glass"></i> 
+        </form>
+
+        <div class="products" id="products">
+
+            <div class="products-box">
+                <a style="text-decoration: none; color:black;" href="https://www.flipkart.com/search?q=checked%20for%20men&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off"><img src="https://rukminim2.flixcart.com/image/612/612/xif0q/shirt/y/b/3/s-bl167bw-blacklilly-original-imahf6f3hygmqhfn.jpeg?q=70" alt="" width="200" height="200">
+                <p>Checked Shirt</p></a>
+            </div>
+
+            <div class="products-box">
+                <a style="text-decoration: none; color:black" href="https://www.flipkart.com/search?q=jeans+shirt+branded&as=on&as-show=on&otracker=AS_Query_OrganicAutoSuggest_4_5_na_na_ps&otracker1=AS_Query_OrganicAutoSuggest_4_5_na_na_ps&as-pos=4&as-type=RECENT&suggestionId=jeans+shirt+branded&requestId=52ddac53-ed2f-458e-8bce-a8e440958767&as-backfill=on"><img src="https://rukminim2.flixcart.com/image/612/612/xif0q/shirt/m/f/w/xl-dnm-001-tallwalker-original-imahey9pss4fmbgj.jpeg?q=70" alt="" width="200" height="200">
+                <p>Jeans Shirt</p></a>
+            </div>
+
+            <div class="products-box">
+                <a style="text-decoration: none; color:black" href="https://www.flipkart.com/search?q=plain+solid+shirt+for+men&sid=clo%2Cash%2Caxc%2Cmmk%2Ckp7&as=on&as-show=on&otracker=AS_QueryStore_OrganicAutoSuggest_1_17_na_na_ps&otracker1=AS_QueryStore_OrganicAutoSuggest_1_17_na_na_ps&as-pos=1&as-type=RECENT&suggestionId=plain+solid+shirt+for+men%7CCasual+Shirts&requestId=62c5432e-791f-4cd5-ba0f-efd50f5c266a&as-backfill=on"><img src="https://rukminim2.flixcart.com/image/612/612/xif0q/shirt/l/v/p/xl-tbh-bezos-mr-the-bear-house-original-imahcdympm9zcgsg.jpeg?q=70" alt="" width="200" height="200">
+                <p>Plain Solid Shirt</p></a>
+            </div>
+
+            <div class="products-box">
+                <a style="text-decoration: none; color:black" href="https://www.flipkart.com/search?q=trendy%20jacket%20checked&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off"><img src="https://rukminim2.flixcart.com/image/612/612/xif0q/shirt/z/k/n/xl-sfd-mawr-rd-the-bear-house-original-imah94hgr5xhmp5t.jpeg?q=70" alt="" width="200" height="200">
+                <p>Trendy Checked Shirt</p></a>
+            </div>
+
+            <div class="products-box">
+                <a style="text-decoration: none; color:black" href="https://www.flipkart.com/search?q=Trendy%20Sneakers&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off"><img src="https://rukminim2.flixcart.com/image/612/612/xif0q/shoe/z/y/0/-original-imaheyc7fgc58pd7.jpeg?q=70" alt="" width="200" height="200">
+                <p>Casual Sneakers</p></a>
+            </div>
+
+            <div class="products-box">
+                <a style="text-decoration: none; color:black" href="https://www.flipkart.com/search?q=Trendy%20Slippers&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off"><img src="https://rukminim2.flixcart.com/image/612/612/xif0q/slipper-flip-flop/k/0/j/6-alfred-90-grey-6-bata-grey-original-imagmszurhf34jcn.jpeg?q=70" alt="" width="200" height="200">
+                <p>Men Slippers</p></a>
+            </div>
+
+            <div class="products-box">
+                <a style="text-decoration: none; color:black" href="https://www.flipkart.com/search?q=formal+shoe+for+men&sid=osp%2Ccil%2Cssb&as=on&as-show=on&otracker=AS_QueryStore_OrganicAutoSuggest_1_12_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_12_na_na_na&as-pos=1&as-type=RECENT&suggestionId=formal+shoe+for+men%7CMen%E2%80%99s+Formal+Shoes&requestId=314c4bec-b07d-421d-bd47-83ae43d57c27&as-backfill=on"><img src="https://rukminim2.flixcart.com/image/612/612/xif0q/shoe/i/7/h/-original-imahd2zcrzp7z42h.jpeg?q=70" alt="" width="200" height="200">
+                <p>Formal Shoe Men</p></a>
+            </div>
+
+            <div class="products-box">
+                <a style="text-decoration: none; color:black" href="https://www.flipkart.com/search?q=loafers+for+men&sid=osp%2Ccil%2Ce1f&as=on&as-show=on&otracker=AS_QueryStore_OrganicAutoSuggest_1_7_na_na_ps&otracker1=AS_QueryStore_OrganicAutoSuggest_1_7_na_na_ps&as-pos=1&as-type=RECENT&suggestionId=loafers+for+men%7CMen%E2%80%99s+Casual+Shoes&requestId=e18115e4-8042-4213-b9f2-114b112597fd&as-backfill=on"><img src="https://rukminim2.flixcart.com/image/612/612/xif0q/shoe/m/y/a/-original-imaghhz3mzfrghf3.jpeg?q=70" alt="" width="200" height="200">
+                <p>Loafers</p></a>
+            </div>
+
+            <div class="products-box">
+                <a style="text-decoration: none; color:black" href="https://www.flipkart.com/search?q=sarees&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off"><img src="https://rukminim2.flixcart.com/image/612/612/xif0q/sari/y/l/1/free-banarasi-avantika-fashion-unstitched-original-imahftz7yg696zu5.jpeg?q=70" alt="" width="200" height="200">
+                <p>Sarees</p></a>
+            </div>
+
+            <div class="products-box">
+                <a style="text-decoration: none; color:black" href="https://www.flipkart.com/clothing-and-accessories/ethnic-wear/kurtas/women-kurtas-and-kurtis/pr?sid=clo,cfv,cib,rkt&q=kurtas+kurtis&otracker=categorytree&otracker=nmenu_sub_Women_0_Kurtas%20%26%20Kurtis"><img src="https://rukminim2.flixcart.com/image/612/612/xif0q/kurta/k/g/a/xl-long-kurti-fabzari-original-imahfyy3fpgcsvrp.jpeg?q=70" alt="" width="200" height="200">
+                <p>kurtas kurtis</p></a>
+            </div>
+
+            <div class="products-box">
+                <a style="text-decoration: none; color:black" href="https://www.flipkart.com/beauty-and-grooming/makeup/pr?sid=g9b,ffi&p[]=facets.serviceability%5B%5D%3Dtrue&otracker=categorytree&otracker=nmenu_sub_Women_0_Make%20Up"><img src="https://rukminim2.flixcart.com/image/612/612/xif0q/makeup-kit/k/b/h/-original-imaheppu9bwqmhbt.jpeg?q=70" alt="" width="200" height="200">
+                <p>Make Up</p></a>
+            </div>
+
+            <div class="products-box">
+                <a style="text-decoration: none; color:black" href="https://www.flipkart.com/womens-footwear/heels/pr?sid=osp,iko,6q1&otracker=nmenu_sub_Women_0_Heels"><img src="https://rukminim2.flixcart.com/image/612/612/xif0q/sandal/2/r/0/7-jm-18-brown-7-simplex-brown-original-imahg4k9azhfsf5x.jpeg?q=70" alt="" width="200" height="200">
+                <p>Heels</p></a>
+            </div>
+
+            <div class="products-box">
+                <a style="text-decoration: none; color:black" href="https://www.flipkart.com/search?q=Boys%20Party%20Wear%28KIDZ%29&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off"><img src="https://rukminim2.flixcart.com/image/612/612/xif0q/kids-ethnic-set/0/g/e/5-6-years-jodhpuri-suit-sacollectoion-original-imahdevgtggkwqmg.jpeg?q=70" alt="" width="200" height="200">
+                <p>Boys Party Wear(KIDZ)</p></a>
+            </div>
+
+            <div class="products-box">
+                <a style="text-decoration: none; color:black" href="https://www.flipkart.com/search?q=Baby%20BOy&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off"><img src="https://rukminim2.flixcart.com/image/612/612/xif0q/kids-apparel-combo/z/n/m/6-9-months-kac11-k-k-p-fashion-original-imahdheajzz5t5h5.jpeg?q=70" alt="" width="200" height="200">
+                <p>Baby Boy</p></a>
+            </div>
+
+            <div class="products-box">
+                <a style="text-decoration: none; color:black" href="https://www.flipkart.com/search?q=Girls%20Party%20Wear&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off"><img src="https://rukminim2.flixcart.com/image/612/612/xif0q/kids-apparel-combo/a/5/r/6-7-years-f-leather-skirt-red-hikuj-original-imah9qttqtjqgxru.jpeg?q=70" alt="" width="200" height="200">
+                <p>Girls Party Wear</p></a>
+            </div>
+
+            <div class="products-box">
+                <a style="text-decoration: none; color:black" href="https://www.flipkart.com/search?q=kids%20slippers&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off"><img src="https://rukminim2.flixcart.com/image/612/612/xif0q/kids-slipper-flip-flop/y/5/g/-original-imaggvzhqhjzhkxa.jpeg?q=70" alt="" width="200" height="200">
+                <p>Kids Slippers</p></a>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+
+    <div class="footer">
+        <div class="footer-container">
+            <div class="fooyer-box-1">
+                <h2 class="headingText">Nostra</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias est sit excepturi asperiores vo!</p>
+                <div class="footer-icon-container">
+                    <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+                    <i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
+                    <i class="fa-brands fa-facebook" style="color: #ffffff;"></i>
+                    <i class="fa-brands fa-whatsapp" style="color: #ffffff;"></i>
+                </div>
+            </div>
+        </div>
+        <p>@ 2025 Nostra.com</p>
+    </div>
+
+    <script src="collection.js"></script>
+    <script src="index.js"></script>
+
+</body>
+
+</html>
