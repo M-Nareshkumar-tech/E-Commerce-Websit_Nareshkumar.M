@@ -98,12 +98,12 @@ body {
 .header img {
     border-radius: 75px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    animation: popUp2 3s ease forwards , float 3s ease-in-out infinite;
+    animation: popUp1 1s ease forwards , float 3s ease-in-out infinite;
     animation-delay: 1s;
     opacity: 0;
 }
 
-@keyframes popUp2 {
+@keyframes popUp1 {
     from{transform: scale(0.5);}
     to{
         transform: scale(3);
@@ -120,12 +120,12 @@ body {
 
 .lu{
     transform: scale(0.5);
-    animation: popUp1 0.8s ease forwards;
+    animation: popUp2 0.8s ease forwards;
     animation-delay: 1s;
     opacity: 0;
 }
 
-@keyframes popUp1 {
+@keyframes popUp2 {
     to{
         transform: scale(1);
         opacity: 1;}
